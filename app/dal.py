@@ -91,5 +91,3 @@ def get_customers_payments_by_lastname_pattern(pattern: str = "son"):
     cursor.close()
     connection.close()  
     return results
-    
-
